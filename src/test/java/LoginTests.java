@@ -21,6 +21,7 @@ import java.util.concurrent.TimeUnit;
 
         @Test
         public void loginPositiveTest(){
+
             // open login form
             wd.findElement(By.xpath("//*[.='LOGIN']")).click();
             // fill login form (находим локаторы на элементы email и password)
