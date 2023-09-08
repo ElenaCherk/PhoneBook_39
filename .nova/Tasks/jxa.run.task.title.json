@@ -1,0 +1,7 @@
+{
+  "extension" : {
+    "identifier" : "net.kopischke.jxa",
+    "name" : "JXA"
+  },
+  "extensionTemplate" : "JXA Script Execution"
+}
