@@ -1,10 +1,10 @@
 package manager;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import com.google.common.io.Files;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import java.io.File;
+import java.io.IOException;
 
 public class HelperBase { // все вспомогтаельные методы
     WebDriver wd; // объявляем поле, потому что без него не будут работат методы этого класса
@@ -15,7 +15,6 @@ public class HelperBase { // все вспомогтаельные методы
     }
 
     public void click(By locator){
-
         wd.findElement(locator).click();
     }
     public void type(By locator, String text){                 // метод передает нужный текст нужному элементу
@@ -28,7 +27,6 @@ public class HelperBase { // все вспомогтаельные методы
     public boolean isElementPresent(By locator){    //будем сюда передавать стратегию
         return wd.findElements(locator).size()>0;
     }
-
     public boolean isAlertPresent() {                              // метод позволяет определять есть ли alert на экране (возвращает true или false),
         Alert alert = new WebDriverWait(wd, 5)     // жди чего то в течение какого-то времени (5 секунд)
                 .until(ExpectedConditions.alertIsPresent());       // жди этого события - появления alert (возвращает или ссылку на объект
@@ -46,5 +44,18 @@ public class HelperBase { // все вспомогтаельные методы
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+    public void takeScreenShot(String link){
+        File tmp = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
+        File screenShot = new File(link);
+
+        try {
+            Files.copy(tmp, screenShot);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    public void refresh() {
+      wd.navigate().refresh();
     }
 }

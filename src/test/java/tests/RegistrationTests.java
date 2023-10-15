@@ -1,20 +1,31 @@
 package tests;
 
+import models.User;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+
     public class RegistrationTests extends TestBase{
+            @BeforeMethod(alwaysRun = true)
+            public void precondition(){
+                    app.getHelperUser().refresh();
+                    if(app.getHelperUser().isLogged()) app.getHelperUser().logout();
+            }
 //        // тут удалили все вспомогательные методы, которые ушли в testBase
-        @Test
+        @Test(groups = {"positive"})
         public void registrationPositiveTest(){
-//            // open login form
+                int i = (int)(System.currentTimeMillis()/1000)%3600;
+                User user = new User(
+                        "polya" + i + "@mail.com",
+                        "Pch1562735$");
+//            // open login/registration form
         app.getHelperUser().openLoginRegistrationForm();
 //            wd.findElement(By.xpath("//*[.='LOGIN']")).click();
-//            // fill login form
-        int i = (int)(System.currentTimeMillis()/1000)%3600;
-        app.getHelperUser().fillLoginRegistrationForm("poly" + i + "@mail.com", "Pch1562738$");
+//            // fill login/registration form
+
+       // app.getHelperUser().fillLoginRegistrationForm("poly" + i + "@mail.com", "Pch1562738$");
 //            int i = (int)(System.currentTimeMillis()/1000)%3600; // переменная i, которая будет зависеть от
 //            // компьютерного времени (кол-во милисекунд, которое прошло с 1 января 1970г, всегда меняется и
 //            // переменная i ,будет всегда разная и у нас всегда будет уникальный imail
@@ -26,9 +37,10 @@ import org.testng.annotations.Test;
 //            passInput.click();
 //            passInput.clear();
 //            passInput.sendKeys("Pch1562738$");
-//
+        app.getHelperUser().fillRegistrationForm1(user);
 //            // click on button registration
         app.getHelperUser().submitReg();
+        logger.info("Registration Positive Test starts with: " + user.getEmail() + " & " + user.getPassword());
 //            wd.findElement(By.xpath("//button[2]")).click();
 //            //assert
         app.getHelperUser().pause(10000);
@@ -36,14 +48,18 @@ import org.testng.annotations.Test;
 //            pause(6000);
 //            Assert.assertTrue(wd.findElements(By.tagName("button")).size() > 0);
         }
-        @Test
+        @Test(groups = {"negative"})
         public void registrationNegativeWrongEmailHW(){
+                int i = (int)(System.currentTimeMillis()/1000)%3600;
+                User user = new User(
+                        "polya" + i + "mail.com",
+                        "Pch1562735$");
 //            // open login form
         app.getHelperUser().openLoginRegistrationForm();
 //            wd.findElement(By.xpath("//*[.='LOGIN']")).click();
 //            // fill login form
-        int i = (int)(System.currentTimeMillis()/1000)%3600;
-        app.getHelperUser().fillLoginRegistrationForm("poly" + i + "mail.com", "Pch1562738$");
+//        int i = (int)(System.currentTimeMillis()/1000)%3600;
+//        app.getHelperUser().fillLoginRegistrationForm("poly" + i + "mail.com", "Pch1562738$");
 //            int i = (int)(System.currentTimeMillis()/1000)%3600;
 //            WebElement emailInput = wd.findElement(By.xpath("//input[1]"));
 //            emailInput.click();
@@ -54,7 +70,7 @@ import org.testng.annotations.Test;
 //            passInput.click();
 //            passInput.clear();
 //            passInput.sendKeys("Pch1562738$");
-//
+        app.getHelperUser().fillRegistrationForm1(user);
 //            // click on button registration
         app.getHelperUser().submitReg();
 //            wd.findElement(By.xpath("//button[2]")).click();

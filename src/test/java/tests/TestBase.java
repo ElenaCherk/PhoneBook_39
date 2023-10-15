@@ -1,15 +1,32 @@
 package tests;
-
 import manager.ApplicationManager;
+import org.openqa.selenium.remote.BrowserType;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
+import java.lang.reflect.Method;
+
 public class TestBase{
+
     //  WebDriver wd; - ушел в ApplicationManager (для всего проекта объявляет переменную
+    static ApplicationManager app = new ApplicationManager(      //(static - java-машина инициализирует его в первую очередь)
+            System.getProperty("browser", BrowserType.CHROME));
 
-    static ApplicationManager app = new ApplicationManager(); //(static - java-машина инициализирует его в первую очередь)
-
-    @BeforeSuite
+    Logger logger = LoggerFactory.getLogger(TestBase.class);
+    @BeforeMethod(alwaysRun = true)
+    public void startTest(Method method){
+        logger.info("Started test ---->" + method.getName());
+    }
+    @AfterMethod(alwaysRun = true)
+    public void stopTest(Method method){
+        logger.info("Finished test ---->" + method.getName());
+        logger.info("=====================================================================");
+    }
+    @BeforeSuite(alwaysRun = true)
     //  public void init(){ //тоже ушел в ApplicationManager (чтобы к нему обратитьс надо создать объект класса ApplicationManager)
     //     wd = new ChromeDriver();
     //     wd.navigate().to("https://telranedu.web.app/home");
@@ -19,7 +36,7 @@ public class TestBase{
         app.init(); // через имя объекта обращаемся к ApplicationManager
     }
 
-    @AfterSuite
+    @AfterSuite(alwaysRun = true)
  //   public void tearDown(){
  //   pause(5000);
  //   wd.quit();
