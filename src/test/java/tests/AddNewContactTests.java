@@ -12,10 +12,11 @@ public class AddNewContactTests extends TestBase{
     @BeforeMethod(alwaysRun = true)
     public void precondition(){
         if(!app.getHelperUser().isLogged()) app.getHelperUser().login(
-                User.builder().
-                        email("rita@mail.com").
-                        password("Rr12345$").
-                        build());
+                app.getEmail(), app.getPassword());
+//                User.builder().
+//                        email("rita@mail.com").
+//                        password("Rr12345$").
+//                        build());
     }
     @Test(invocationCount = 5, groups = {"positive", "smoke"})
     public void addNewContactPositive(){

@@ -161,6 +161,15 @@ import org.testng.annotations.Test;
 //            alert.accept(); // нажимаем на конпочку OK
 //            return true;
 //        }*/
+
+    @Test(groups = {"positive"})
+    public void loginPositiveTestProps(){
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm(app.getEmail(), app.getPassword());
+        app.getHelperUser().submitLogin();
+        app.getHelperUser().pause(2000);
+        Assert.assertTrue(app.getHelperUser().isElementPresent(By.tagName("button")));
+    }
     }
 
 

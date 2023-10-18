@@ -16,6 +16,13 @@ public class HelperUser extends HelperBase{ // все что связано с �
         fillRegistrationForm1(user);
         submitLogin();
     }
+
+    public void login(String email, String password){
+        openLoginRegistrationForm();
+        fillRegistrationForm(email,password);
+        submitLogin();
+    }
+
     public void fillLoginRegistrationForm(String email, String password){
         type(By.xpath("//input[1]"), email);
         type(By.xpath("//input[2]"), password); // сломали специально

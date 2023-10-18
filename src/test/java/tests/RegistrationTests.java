@@ -1,5 +1,6 @@
 package tests;
 
+import manager.ProviderData;
 import models.User;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -79,5 +80,20 @@ import org.testng.annotations.Test;
         Assert.assertTrue(app.getHelperUser().isAlertPresent());
 //            //pause(3000);
 //            Assert.assertTrue(isAlertPresent());
+        }
+
+        @Test(groups = {"positive"}, dataProvider = "registrationCSV", dataProviderClass = ProviderData.class)
+        public void registrationPositiveTestCSV(User user){
+            int i = (int)(System.currentTimeMillis()/1000)%3600;
+            String email = user.getEmail();
+            String password = user.getPassword();
+            app.getHelperUser().openLoginRegistrationForm();
+                 //   app.getHelperUser().fillRegistrationForm1(user);
+            app.getHelperUser().fillRegistrationForm(email, password);
+            app.getHelperUser().submitReg();
+                 //   logger.info("Registration Positive Test starts with: " + user.getEmail() + " & " + user.getPassword());
+            logger.info("Registration Positive Test starts with: " + email + " & " + password);
+            app.getHelperUser().pause(1000);
+            Assert.assertTrue(app.getHelperUser().isElementPresent(By.tagName("button")));
         }
     }

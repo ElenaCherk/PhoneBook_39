@@ -32,7 +32,6 @@ task myTest(type: Test){
         if(groups!=null){
             includeGroups groups
         }
-
         def suite = System.getProperty('suite', '')
         if (suite.equals('add')) {
             suites 'src/test/resources/add.xml'
@@ -46,5 +45,8 @@ task myTest(type: Test){
     }
     if(project.hasProperty('browser')){
         systemProperty 'browser', "${browser}"
+    }
+    if(project.hasProperty('target')){
+        systemProperty 'target', "${target}"
     }
 }
