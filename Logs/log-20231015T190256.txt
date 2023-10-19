@@ -1,0 +1,153 @@
+2023-10-15 19:03:03,667 INFO m.ApplicationManager [ApplicationManager.java:32] Test started on Chrome
+2023-10-15 19:03:04,551 INFO m.ApplicationManager [ApplicationManager.java:40] Navigated to the link --->https://telranedu.web.app/home
+2023-10-15 19:03:04,611 INFO t.TestBase [TestBase.java:22] Started test ---->registrationPositiveTestCSV
+2023-10-15 19:03:04,813 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-15 19:03:07,876 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-15 19:03:07,879 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-15 19:03:07,912 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-15 19:03:08,289 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[@placeholder='Email']
+2023-10-15 19:03:08,409 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[@placeholder='Email']is found
+2023-10-15 19:03:09,203 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[@placeholder='Password']
+2023-10-15 19:03:09,216 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[@placeholder='Password']is found
+2023-10-15 19:03:09,466 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[2]
+2023-10-15 19:03:09,488 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[2]is found
+2023-10-15 19:03:09,669 INFO t.TestBase [RegistrationTests.java:94] Registration Positive Test starts with: rita263@mail.com & Rr17845$
+2023-10-15 19:03:19,680 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-15 19:03:19,742 INFO m.WDListener [WDListener.java:26] Element with locator -->By.tagName: buttonis found
+2023-10-15 19:03:19,758 INFO t.TestBase [TestBase.java:26] Finished test ---->registrationPositiveTestCSV
+2023-10-15 19:03:19,758 INFO t.TestBase [TestBase.java:27] =====================================================================
+2023-10-15 19:03:19,760 INFO t.TestBase [TestBase.java:22] Started test ---->registrationPositiveTestCSV
+2023-10-15 19:03:19,985 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-15 19:03:20,027 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-15 19:03:20,027 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-15 19:03:20,037 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-15 19:03:20,106 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-15 19:03:20,134 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-15 19:03:20,164 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[@placeholder='Email']
+2023-10-15 19:03:20,188 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[@placeholder='Email']is found
+2023-10-15 19:03:20,355 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[@placeholder='Password']
+2023-10-15 19:03:20,381 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[@placeholder='Password']is found
+2023-10-15 19:03:20,525 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[2]
+2023-10-15 19:03:20,550 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[2]is found
+2023-10-15 19:03:20,653 INFO t.TestBase [RegistrationTests.java:94] Registration Positive Test starts with: lina748@mail.com & Ll12235$
+2023-10-15 19:03:30,662 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-15 19:03:30,744 INFO m.WDListener [WDListener.java:32] Something went wrong!!!
+2023-10-15 19:03:30,744 INFO m.WDListener [WDListener.java:33] unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64734}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f8e7cfd6e2653c86a6abf20eb56c1324
+*** Element info: {Using=tag name, value=button}
+2023-10-15 19:03:30,744 INFO m.WDListener [WDListener.java:34] org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64734}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f8e7cfd6e2653c86a6abf20eb56c1324
+*** Element info: {Using=tag name, value=button}
+2023-10-15 19:03:31,348 INFO m.WDListener [WDListener.java:39] Here is the path to screenshot with error --> src/test/ScreenShots/screenshot-210.png
+2023-10-15 19:03:31,360 INFO t.TestBase [TestBase.java:26] Finished test ---->registrationPositiveTestCSV
+2023-10-15 19:03:31,361 INFO t.TestBase [TestBase.java:27] =====================================================================
+2023-10-15 19:03:31,361 INFO t.TestBase [TestBase.java:22] Started test ---->registrationPositiveTestCSV
+2023-10-15 19:03:31,507 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-15 19:03:34,555 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-15 19:03:34,558 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-15 19:03:34,571 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-15 19:03:34,656 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[@placeholder='Email']
+2023-10-15 19:03:34,664 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[@placeholder='Email']is found
+2023-10-15 19:03:34,860 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[@placeholder='Password']
+2023-10-15 19:03:34,871 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[@placeholder='Password']is found
+2023-10-15 19:03:34,952 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[2]
+2023-10-15 19:03:34,961 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[2]is found
+2023-10-15 19:03:35,018 INFO t.TestBase [RegistrationTests.java:94] Registration Positive Test starts with: april748@mail.com & Oj79343$
+2023-10-15 19:03:45,023 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-15 19:03:45,058 INFO m.WDListener [WDListener.java:32] Something went wrong!!!
+2023-10-15 19:03:45,059 INFO m.WDListener [WDListener.java:33] unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64734}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f8e7cfd6e2653c86a6abf20eb56c1324
+*** Element info: {Using=tag name, value=button}
+2023-10-15 19:03:45,059 INFO m.WDListener [WDListener.java:34] org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64734}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f8e7cfd6e2653c86a6abf20eb56c1324
+*** Element info: {Using=tag name, value=button}
+2023-10-15 19:03:45,909 INFO m.WDListener [WDListener.java:39] Here is the path to screenshot with error --> src/test/ScreenShots/screenshot-225.png
+2023-10-15 19:03:45,916 INFO t.TestBase [TestBase.java:26] Finished test ---->registrationPositiveTestCSV
+2023-10-15 19:03:45,916 INFO t.TestBase [TestBase.java:27] =====================================================================
+2023-10-15 19:03:45,917 INFO t.TestBase [TestBase.java:22] Started test ---->registrationPositiveTestCSV
+2023-10-15 19:03:46,131 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-15 19:03:49,193 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-15 19:03:49,207 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-15 19:03:49,221 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-15 19:03:49,301 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[@placeholder='Email']
+2023-10-15 19:03:49,308 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[@placeholder='Email']is found
+2023-10-15 19:03:49,447 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[@placeholder='Password']
+2023-10-15 19:03:49,457 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[@placeholder='Password']is found
+2023-10-15 19:03:49,579 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[2]
+2023-10-15 19:03:49,593 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[2]is found
+2023-10-15 19:03:49,668 INFO t.TestBase [RegistrationTests.java:94] Registration Positive Test starts with: dan456@mail.com & Ft12646$
+2023-10-15 19:03:59,676 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-15 19:03:59,713 INFO m.WDListener [WDListener.java:32] Something went wrong!!!
+2023-10-15 19:03:59,714 INFO m.WDListener [WDListener.java:33] unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64734}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f8e7cfd6e2653c86a6abf20eb56c1324
+*** Element info: {Using=tag name, value=button}
+2023-10-15 19:03:59,714 INFO m.WDListener [WDListener.java:34] org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64734}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f8e7cfd6e2653c86a6abf20eb56c1324
+*** Element info: {Using=tag name, value=button}
+2023-10-15 19:04:00,416 INFO m.WDListener [WDListener.java:39] Here is the path to screenshot with error --> src/test/ScreenShots/screenshot-239.png
+2023-10-15 19:04:00,434 INFO t.TestBase [TestBase.java:26] Finished test ---->registrationPositiveTestCSV
+2023-10-15 19:04:00,434 INFO t.TestBase [TestBase.java:27] =====================================================================
+2023-10-15 19:04:00,442 INFO t.TestBase [TestBase.java:22] Started test ---->registrationPositiveTestCSV
+2023-10-15 19:04:00,663 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-15 19:04:03,726 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-15 19:04:03,734 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-15 19:04:03,750 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-15 19:04:03,798 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[@placeholder='Email']
+2023-10-15 19:04:03,805 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[@placeholder='Email']is found
+2023-10-15 19:04:03,963 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[@placeholder='Password']
+2023-10-15 19:04:03,976 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[@placeholder='Password']is found
+2023-10-15 19:04:04,176 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[2]
+2023-10-15 19:04:04,205 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[2]is found
+2023-10-15 19:04:04,273 INFO t.TestBase [RegistrationTests.java:94] Registration Positive Test starts with: lenka4893@mail.com & Fu19276$
+2023-10-15 19:04:14,281 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-15 19:04:14,326 INFO m.WDListener [WDListener.java:32] Something went wrong!!!
+2023-10-15 19:04:14,328 INFO m.WDListener [WDListener.java:33] unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64734}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f8e7cfd6e2653c86a6abf20eb56c1324
+*** Element info: {Using=tag name, value=button}
+2023-10-15 19:04:14,329 INFO m.WDListener [WDListener.java:34] org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64734}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f8e7cfd6e2653c86a6abf20eb56c1324
+*** Element info: {Using=tag name, value=button}
+2023-10-15 19:04:14,953 INFO m.WDListener [WDListener.java:39] Here is the path to screenshot with error --> src/test/ScreenShots/screenshot-254.png
+2023-10-15 19:04:14,965 INFO t.TestBase [TestBase.java:26] Finished test ---->registrationPositiveTestCSV
+2023-10-15 19:04:14,966 INFO t.TestBase [TestBase.java:27] =====================================================================
+2023-10-15 19:04:15,008 INFO m.ApplicationManager [ApplicationManager.java:49] Test completed

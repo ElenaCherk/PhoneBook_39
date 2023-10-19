@@ -1,0 +1,77 @@
+2023-10-15 13:05:08,791 INFO m.ApplicationManager [ApplicationManager.java:32] Test started on Chrome
+2023-10-15 13:05:09,631 INFO m.ApplicationManager [ApplicationManager.java:40] Navigated to the link --->https://telranedu.web.app/home
+2023-10-15 13:05:09,686 INFO t.TestBase [TestBase.java:22] Started test ---->loginPositiveTestUserDTO
+2023-10-15 13:05:09,892 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-15 13:05:12,945 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-15 13:05:12,948 INFO m.NGListener [NGListener.java:15] Start of the test --> loginPositiveTestUserDTO
+2023-10-15 13:05:12,950 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-15 13:05:12,983 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-15 13:05:13,359 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[1]
+2023-10-15 13:05:13,481 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[1]is found
+2023-10-15 13:05:14,207 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[2]
+2023-10-15 13:05:14,237 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[2]is found
+2023-10-15 13:05:14,455 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[1]
+2023-10-15 13:05:14,466 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[1]is found
+2023-10-15 13:05:17,658 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-15 13:05:17,698 INFO m.WDListener [WDListener.java:26] Element with locator -->By.tagName: buttonis found
+2023-10-15 13:05:17,705 INFO m.NGListener [NGListener.java:21] Success test --> loginPositiveTestUserDTO
+2023-10-15 13:05:17,708 INFO t.TestBase [TestBase.java:26] Finished test ---->loginPositiveTestUserDTO
+2023-10-15 13:05:17,708 INFO t.TestBase [TestBase.java:27] =====================================================================
+2023-10-15 13:05:17,712 INFO t.TestBase [TestBase.java:22] Started test ---->loginPositiveTestUserDTO
+2023-10-15 13:05:17,883 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-15 13:05:17,930 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-15 13:05:17,930 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-15 13:05:17,942 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-15 13:05:18,006 INFO m.NGListener [NGListener.java:15] Start of the test --> loginPositiveTestUserDTO
+2023-10-15 13:05:18,006 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-15 13:05:18,032 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-15 13:05:18,060 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[1]
+2023-10-15 13:05:18,088 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[1]is found
+2023-10-15 13:05:18,232 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[2]
+2023-10-15 13:05:18,268 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[2]is found
+2023-10-15 13:05:18,380 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[1]
+2023-10-15 13:05:18,408 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[1]is found
+2023-10-15 13:05:21,517 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-15 13:05:21,570 INFO m.WDListener [WDListener.java:26] Element with locator -->By.tagName: buttonis found
+2023-10-15 13:05:21,571 INFO m.NGListener [NGListener.java:21] Success test --> loginPositiveTestUserDTO
+2023-10-15 13:05:21,573 INFO t.TestBase [TestBase.java:26] Finished test ---->loginPositiveTestUserDTO
+2023-10-15 13:05:21,573 INFO t.TestBase [TestBase.java:27] =====================================================================
+2023-10-15 13:05:21,575 INFO t.TestBase [TestBase.java:22] Started test ---->loginPositiveTestUserDTO
+2023-10-15 13:05:21,807 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-15 13:05:21,816 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-15 13:05:21,817 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-15 13:05:21,841 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-15 13:05:21,919 INFO m.NGListener [NGListener.java:15] Start of the test --> loginPositiveTestUserDTO
+2023-10-15 13:05:21,921 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-15 13:05:21,929 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-15 13:05:21,984 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[1]
+2023-10-15 13:05:21,993 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[1]is found
+2023-10-15 13:05:22,092 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[2]
+2023-10-15 13:05:22,102 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[2]is found
+2023-10-15 13:05:22,231 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[1]
+2023-10-15 13:05:22,240 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[1]is found
+2023-10-15 13:05:25,308 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-15 13:05:25,333 INFO m.WDListener [WDListener.java:26] Element with locator -->By.tagName: buttonis found
+2023-10-15 13:05:25,334 INFO m.NGListener [NGListener.java:21] Success test --> loginPositiveTestUserDTO
+2023-10-15 13:05:25,337 INFO t.TestBase [TestBase.java:26] Finished test ---->loginPositiveTestUserDTO
+2023-10-15 13:05:25,337 INFO t.TestBase [TestBase.java:27] =====================================================================
+2023-10-15 13:05:25,338 INFO t.TestBase [TestBase.java:22] Started test ---->loginPositiveTestUserDTO
+2023-10-15 13:05:25,457 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-15 13:05:25,485 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-15 13:05:25,487 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-15 13:05:25,495 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-15 13:05:25,527 INFO m.NGListener [NGListener.java:15] Start of the test --> loginPositiveTestUserDTO
+2023-10-15 13:05:25,527 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-15 13:05:25,537 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-15 13:05:25,556 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[1]
+2023-10-15 13:05:25,567 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[1]is found
+2023-10-15 13:05:25,671 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[2]
+2023-10-15 13:05:25,680 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[2]is found
+2023-10-15 13:05:25,790 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[1]
+2023-10-15 13:05:25,800 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[1]is found
+2023-10-15 13:05:28,856 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-15 13:05:28,878 INFO m.WDListener [WDListener.java:26] Element with locator -->By.tagName: buttonis found
+2023-10-15 13:05:28,879 INFO m.NGListener [NGListener.java:21] Success test --> loginPositiveTestUserDTO
+2023-10-15 13:05:28,884 INFO t.TestBase [TestBase.java:26] Finished test ---->loginPositiveTestUserDTO
+2023-10-15 13:05:28,885 INFO t.TestBase [TestBase.java:27] =====================================================================
+2023-10-15 13:05:28,898 INFO m.ApplicationManager [ApplicationManager.java:49] Test completed

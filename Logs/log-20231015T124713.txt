@@ -1,0 +1,5 @@
+2023-10-15 12:47:21,975 INFO m.ApplicationManager [ApplicationManager.java:32] Test started on Chrome
+2023-10-15 12:47:22,782 INFO m.ApplicationManager [ApplicationManager.java:40] Navigated to the link --->https://telranedu.web.app/home
+2023-10-15 12:47:22,843 INFO m.NGListener [NGListener.java:27] Failure test --> org.testng.TestNGException: 
+Method public void tests.LoginTests.loginPositiveTestUserDTO(models.User) requires a @DataProvider named : userDTO() in class manager.ProviderData
+2023-10-15 12:47:22,852 INFO m.ApplicationManager [ApplicationManager.java:49] Test completed

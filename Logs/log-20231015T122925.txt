@@ -1,0 +1,3 @@
+2023-10-15 12:30:09,270 INFO m.NGListener [NGListener.java:27] Failure test --> org.testng.TestNGException: 
+Method public void tests.LoginTests.loginPositiveTestUserDTO(models.User) requires a @DataProvider named : UserDTO in class manager.ProviderData
+2023-10-15 12:30:09,279 INFO m.ApplicationManager [ApplicationManager.java:49] Test completed

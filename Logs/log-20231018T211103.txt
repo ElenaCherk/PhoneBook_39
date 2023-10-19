@@ -1,0 +1,663 @@
+2023-10-18 21:11:14,687 INFO m.ApplicationManager [ApplicationManager.java:44] Test started on Chrome
+2023-10-18 21:11:16,036 INFO m.ApplicationManager [ApplicationManager.java:52] Navigated to the link --->https://telranedu.web.app/home
+2023-10-18 21:11:16,093 INFO t.TestBase [TestBase.java:23] Started test ---->addNewContactPositive
+2023-10-18 21:11:16,094 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:11:19,133 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:11:19,134 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-18 21:11:19,163 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-18 21:11:19,586 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[1]
+2023-10-18 21:11:19,720 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[1]is found
+2023-10-18 21:11:20,404 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[2]
+2023-10-18 21:11:20,417 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[2]is found
+2023-10-18 21:11:20,668 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[1]
+2023-10-18 21:11:20,682 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[1]is found
+2023-10-18 21:11:20,887 INFO m.NGListener [NGListener.java:15] Start of the test --> addNewContactPositive
+2023-10-18 21:11:20,888 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //a[.='ADD']
+2023-10-18 21:11:22,327 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //a[.='ADD']is found
+2023-10-18 21:11:22,441 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Name']
+2023-10-18 21:11:22,455 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Name']is found
+2023-10-18 21:11:22,569 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Last Name']
+2023-10-18 21:11:22,582 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Last Name']is found
+2023-10-18 21:11:22,754 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Phone']
+2023-10-18 21:11:22,767 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Phone']is found
+2023-10-18 21:11:23,377 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='email']
+2023-10-18 21:11:23,392 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='email']is found
+2023-10-18 21:11:23,482 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Address']
+2023-10-18 21:11:23,511 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Address']is found
+2023-10-18 21:11:23,639 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='description']
+2023-10-18 21:11:23,649 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='description']is found
+2023-10-18 21:11:23,723 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Save']
+2023-10-18 21:11:23,740 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Save']is found
+2023-10-18 21:11:23,791 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3
+2023-10-18 21:11:24,894 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3is found
+2023-10-18 21:11:24,953 INFO m.NGListener [NGListener.java:21] Success test --> addNewContactPositive
+2023-10-18 21:11:24,957 INFO t.TestBase [TestBase.java:27] Finished test ---->addNewContactPositive
+2023-10-18 21:11:24,957 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:11:24,959 INFO t.TestBase [TestBase.java:23] Started test ---->addNewContactPositive
+2023-10-18 21:11:24,960 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:11:24,997 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:11:24,997 INFO m.NGListener [NGListener.java:15] Start of the test --> addNewContactPositive
+2023-10-18 21:11:24,999 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //a[.='ADD']
+2023-10-18 21:11:25,007 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //a[.='ADD']is found
+2023-10-18 21:11:25,109 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Name']
+2023-10-18 21:11:25,155 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Name']is found
+2023-10-18 21:11:25,229 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Last Name']
+2023-10-18 21:11:25,255 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Last Name']is found
+2023-10-18 21:11:25,343 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Phone']
+2023-10-18 21:11:25,369 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Phone']is found
+2023-10-18 21:11:25,628 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='email']
+2023-10-18 21:11:25,657 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='email']is found
+2023-10-18 21:11:25,784 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Address']
+2023-10-18 21:11:25,819 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Address']is found
+2023-10-18 21:11:25,898 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='description']
+2023-10-18 21:11:25,927 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='description']is found
+2023-10-18 21:11:26,036 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Save']
+2023-10-18 21:11:26,064 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Save']is found
+2023-10-18 21:11:26,145 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3
+2023-10-18 21:11:26,629 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3is found
+2023-10-18 21:11:26,741 INFO m.NGListener [NGListener.java:21] Success test --> addNewContactPositive
+2023-10-18 21:11:26,743 INFO t.TestBase [TestBase.java:27] Finished test ---->addNewContactPositive
+2023-10-18 21:11:26,743 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:11:26,744 INFO t.TestBase [TestBase.java:23] Started test ---->addNewContactPositive
+2023-10-18 21:11:26,745 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:11:26,768 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:11:26,769 INFO m.NGListener [NGListener.java:15] Start of the test --> addNewContactPositive
+2023-10-18 21:11:26,770 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //a[.='ADD']
+2023-10-18 21:11:26,792 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //a[.='ADD']is found
+2023-10-18 21:11:26,916 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Name']
+2023-10-18 21:11:26,930 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Name']is found
+2023-10-18 21:11:27,007 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Last Name']
+2023-10-18 21:11:27,018 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Last Name']is found
+2023-10-18 21:11:27,116 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Phone']
+2023-10-18 21:11:27,124 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Phone']is found
+2023-10-18 21:11:27,208 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='email']
+2023-10-18 21:11:27,217 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='email']is found
+2023-10-18 21:11:27,459 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Address']
+2023-10-18 21:11:27,469 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Address']is found
+2023-10-18 21:11:27,556 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='description']
+2023-10-18 21:11:27,564 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='description']is found
+2023-10-18 21:11:27,900 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Save']
+2023-10-18 21:11:28,113 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Save']is found
+2023-10-18 21:11:28,228 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3
+2023-10-18 21:11:28,992 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3is found
+2023-10-18 21:11:29,006 INFO m.NGListener [NGListener.java:21] Success test --> addNewContactPositive
+2023-10-18 21:11:29,009 INFO t.TestBase [TestBase.java:27] Finished test ---->addNewContactPositive
+2023-10-18 21:11:29,010 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:11:29,012 INFO t.TestBase [TestBase.java:23] Started test ---->addNewContactPositive
+2023-10-18 21:11:29,013 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:11:29,021 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:11:29,022 INFO m.NGListener [NGListener.java:15] Start of the test --> addNewContactPositive
+2023-10-18 21:11:29,022 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //a[.='ADD']
+2023-10-18 21:11:29,032 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //a[.='ADD']is found
+2023-10-18 21:11:29,207 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Name']
+2023-10-18 21:11:29,214 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Name']is found
+2023-10-18 21:11:29,421 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Last Name']
+2023-10-18 21:11:29,429 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Last Name']is found
+2023-10-18 21:11:29,536 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Phone']
+2023-10-18 21:11:29,596 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Phone']is found
+2023-10-18 21:11:29,742 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='email']
+2023-10-18 21:11:29,751 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='email']is found
+2023-10-18 21:11:30,259 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Address']
+2023-10-18 21:11:30,270 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Address']is found
+2023-10-18 21:11:30,429 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='description']
+2023-10-18 21:11:30,448 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='description']is found
+2023-10-18 21:11:30,529 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Save']
+2023-10-18 21:11:30,536 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Save']is found
+2023-10-18 21:11:30,566 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3
+2023-10-18 21:11:31,161 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3is found
+2023-10-18 21:11:31,170 INFO m.NGListener [NGListener.java:21] Success test --> addNewContactPositive
+2023-10-18 21:11:31,172 INFO t.TestBase [TestBase.java:27] Finished test ---->addNewContactPositive
+2023-10-18 21:11:31,173 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:11:31,174 INFO t.TestBase [TestBase.java:23] Started test ---->addNewContactPositive
+2023-10-18 21:11:31,176 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:11:31,201 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:11:31,202 INFO m.NGListener [NGListener.java:15] Start of the test --> addNewContactPositive
+2023-10-18 21:11:31,203 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //a[.='ADD']
+2023-10-18 21:11:31,211 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //a[.='ADD']is found
+2023-10-18 21:11:31,334 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Name']
+2023-10-18 21:11:31,345 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Name']is found
+2023-10-18 21:11:31,448 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Last Name']
+2023-10-18 21:11:31,487 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Last Name']is found
+2023-10-18 21:11:31,540 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Phone']
+2023-10-18 21:11:31,568 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Phone']is found
+2023-10-18 21:11:31,651 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='email']
+2023-10-18 21:11:31,657 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='email']is found
+2023-10-18 21:11:31,741 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Address']
+2023-10-18 21:11:31,751 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Address']is found
+2023-10-18 21:11:31,821 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='description']
+2023-10-18 21:11:31,827 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='description']is found
+2023-10-18 21:11:31,884 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Save']
+2023-10-18 21:11:31,890 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Save']is found
+2023-10-18 21:11:31,907 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3
+2023-10-18 21:11:32,382 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3is found
+2023-10-18 21:11:32,392 INFO m.NGListener [NGListener.java:21] Success test --> addNewContactPositive
+2023-10-18 21:11:32,395 INFO t.TestBase [TestBase.java:27] Finished test ---->addNewContactPositive
+2023-10-18 21:11:32,395 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:11:32,444 INFO t.TestBase [TestBase.java:23] Started test ---->addNewContactPositiveDTO
+2023-10-18 21:11:32,445 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:11:32,452 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:11:32,453 INFO m.NGListener [NGListener.java:15] Start of the test --> addNewContactPositiveDTO
+2023-10-18 21:11:32,453 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //a[.='ADD']
+2023-10-18 21:11:32,460 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //a[.='ADD']is found
+2023-10-18 21:11:32,483 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Name']
+2023-10-18 21:11:32,491 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Name']is found
+2023-10-18 21:11:32,551 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Last Name']
+2023-10-18 21:11:32,559 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Last Name']is found
+2023-10-18 21:11:32,640 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Phone']
+2023-10-18 21:11:32,646 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Phone']is found
+2023-10-18 21:11:32,697 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='email']
+2023-10-18 21:11:32,703 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='email']is found
+2023-10-18 21:11:32,769 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Address']
+2023-10-18 21:11:32,776 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Address']is found
+2023-10-18 21:11:32,859 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='description']
+2023-10-18 21:11:32,868 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='description']is found
+2023-10-18 21:11:32,920 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Save']
+2023-10-18 21:11:32,926 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Save']is found
+2023-10-18 21:11:32,942 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3
+2023-10-18 21:11:33,352 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3is found
+2023-10-18 21:11:33,362 INFO m.NGListener [NGListener.java:21] Success test --> addNewContactPositiveDTO
+2023-10-18 21:11:33,363 INFO t.TestBase [TestBase.java:27] Finished test ---->addNewContactPositiveDTO
+2023-10-18 21:11:33,364 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:11:33,367 INFO t.TestBase [TestBase.java:23] Started test ---->addNewContactPositiveDTO
+2023-10-18 21:11:33,367 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:11:33,375 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:11:33,377 INFO m.NGListener [NGListener.java:15] Start of the test --> addNewContactPositiveDTO
+2023-10-18 21:11:33,377 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //a[.='ADD']
+2023-10-18 21:11:33,384 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //a[.='ADD']is found
+2023-10-18 21:11:33,433 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Name']
+2023-10-18 21:11:33,439 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Name']is found
+2023-10-18 21:11:33,491 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Last Name']
+2023-10-18 21:11:33,498 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Last Name']is found
+2023-10-18 21:11:33,561 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Phone']
+2023-10-18 21:11:33,567 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Phone']is found
+2023-10-18 21:11:33,617 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='email']
+2023-10-18 21:11:33,626 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='email']is found
+2023-10-18 21:11:33,708 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Address']
+2023-10-18 21:11:33,714 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Address']is found
+2023-10-18 21:11:33,843 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='description']
+2023-10-18 21:11:33,851 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='description']is found
+2023-10-18 21:11:33,949 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Save']
+2023-10-18 21:11:33,957 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Save']is found
+2023-10-18 21:11:34,047 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3
+2023-10-18 21:11:34,579 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3is found
+2023-10-18 21:11:34,586 INFO m.NGListener [NGListener.java:21] Success test --> addNewContactPositiveDTO
+2023-10-18 21:11:34,586 INFO t.TestBase [TestBase.java:27] Finished test ---->addNewContactPositiveDTO
+2023-10-18 21:11:34,586 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:11:34,587 INFO t.TestBase [TestBase.java:23] Started test ---->addNewContactPositiveDTO
+2023-10-18 21:11:34,588 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:11:34,596 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:11:34,596 INFO m.NGListener [NGListener.java:15] Start of the test --> addNewContactPositiveDTO
+2023-10-18 21:11:34,597 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //a[.='ADD']
+2023-10-18 21:11:34,604 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //a[.='ADD']is found
+2023-10-18 21:11:34,692 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Name']
+2023-10-18 21:11:34,701 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Name']is found
+2023-10-18 21:11:34,767 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Last Name']
+2023-10-18 21:11:34,773 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Last Name']is found
+2023-10-18 21:11:34,825 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Phone']
+2023-10-18 21:11:34,831 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Phone']is found
+2023-10-18 21:11:34,890 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='email']
+2023-10-18 21:11:34,897 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='email']is found
+2023-10-18 21:11:34,973 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='Address']
+2023-10-18 21:11:35,003 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='Address']is found
+2023-10-18 21:11:35,110 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.cssSelector: [placeholder='description']
+2023-10-18 21:11:35,121 INFO m.WDListener [WDListener.java:26] Element with locator -->By.cssSelector: [placeholder='description']is found
+2023-10-18 21:11:35,203 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Save']
+2023-10-18 21:11:35,210 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Save']is found
+2023-10-18 21:11:35,272 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3
+2023-10-18 21:11:35,941 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3is found
+2023-10-18 21:11:35,950 INFO m.NGListener [NGListener.java:21] Success test --> addNewContactPositiveDTO
+2023-10-18 21:11:35,951 INFO t.TestBase [TestBase.java:27] Finished test ---->addNewContactPositiveDTO
+2023-10-18 21:11:35,951 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:11:35,954 INFO t.TestBase [TestBase.java:23] Started test ---->loginNegativeTestWrongEmail
+2023-10-18 21:11:36,649 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:11:36,661 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:11:36,661 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:11:36,672 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:11:36,812 INFO m.NGListener [NGListener.java:15] Start of the test --> loginNegativeTestWrongEmail
+2023-10-18 21:11:36,813 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-18 21:11:36,879 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-18 21:11:36,933 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[1]
+2023-10-18 21:11:36,975 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[1]is found
+2023-10-18 21:11:37,091 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[2]
+2023-10-18 21:11:37,131 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[2]is found
+2023-10-18 21:11:37,277 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[1]
+2023-10-18 21:11:37,317 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[1]is found
+2023-10-18 21:11:47,608 INFO m.NGListener [NGListener.java:21] Success test --> loginNegativeTestWrongEmail
+2023-10-18 21:11:47,616 INFO t.TestBase [TestBase.java:27] Finished test ---->loginNegativeTestWrongEmail
+2023-10-18 21:11:47,616 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:11:47,628 INFO t.TestBase [TestBase.java:23] Started test ---->loginNegativeTestWrongPasswordHW
+2023-10-18 21:11:47,858 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:11:50,917 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:11:50,921 INFO m.NGListener [NGListener.java:15] Start of the test --> loginNegativeTestWrongPasswordHW
+2023-10-18 21:11:50,922 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-18 21:11:50,937 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-18 21:11:51,056 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[1]
+2023-10-18 21:11:51,065 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[1]is found
+2023-10-18 21:11:51,249 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[2]
+2023-10-18 21:11:51,309 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[2]is found
+2023-10-18 21:11:51,451 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[1]
+2023-10-18 21:11:51,462 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[1]is found
+2023-10-18 21:12:01,572 INFO m.NGListener [NGListener.java:21] Success test --> loginNegativeTestWrongPasswordHW
+2023-10-18 21:12:01,580 INFO t.TestBase [TestBase.java:27] Finished test ---->loginNegativeTestWrongPasswordHW
+2023-10-18 21:12:01,580 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:12:01,584 INFO t.TestBase [TestBase.java:23] Started test ---->loginPositiveTest
+2023-10-18 21:12:01,804 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:12:04,836 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:12:04,842 INFO m.NGListener [NGListener.java:15] Start of the test --> loginPositiveTest
+2023-10-18 21:12:04,845 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-18 21:12:04,870 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-18 21:12:04,918 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[1]
+2023-10-18 21:12:04,925 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[1]is found
+2023-10-18 21:12:05,031 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[2]
+2023-10-18 21:12:05,047 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[2]is found
+2023-10-18 21:12:05,142 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[1]
+2023-10-18 21:12:05,149 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[1]is found
+2023-10-18 21:12:15,204 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-18 21:12:15,247 INFO m.WDListener [WDListener.java:26] Element with locator -->By.tagName: buttonis found
+2023-10-18 21:12:15,251 INFO m.NGListener [NGListener.java:21] Success test --> loginPositiveTest
+2023-10-18 21:12:15,257 INFO t.TestBase [TestBase.java:27] Finished test ---->loginPositiveTest
+2023-10-18 21:12:15,258 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:12:15,259 INFO t.TestBase [TestBase.java:23] Started test ---->loginPositiveTestModel
+2023-10-18 21:12:15,461 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:12:15,482 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:12:15,482 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:12:15,541 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:12:15,647 INFO m.NGListener [NGListener.java:15] Start of the test --> loginPositiveTestModel
+2023-10-18 21:12:15,655 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-18 21:12:15,667 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-18 21:12:15,690 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[1]
+2023-10-18 21:12:15,699 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[1]is found
+2023-10-18 21:12:15,797 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[2]
+2023-10-18 21:12:15,804 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[2]is found
+2023-10-18 21:12:15,935 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[1]
+2023-10-18 21:12:15,943 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[1]is found
+2023-10-18 21:12:19,008 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-18 21:12:19,070 INFO m.WDListener [WDListener.java:26] Element with locator -->By.tagName: buttonis found
+2023-10-18 21:12:19,070 INFO m.NGListener [NGListener.java:21] Success test --> loginPositiveTestModel
+2023-10-18 21:12:19,072 INFO t.TestBase [TestBase.java:27] Finished test ---->loginPositiveTestModel
+2023-10-18 21:12:19,072 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:12:19,073 INFO t.TestBase [TestBase.java:23] Started test ---->loginPositiveTestProps
+2023-10-18 21:12:19,190 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:12:19,200 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:12:19,200 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:12:19,206 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:12:19,229 INFO m.NGListener [NGListener.java:15] Start of the test --> loginPositiveTestProps
+2023-10-18 21:12:19,230 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-18 21:12:19,238 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-18 21:12:19,267 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[1]
+2023-10-18 21:12:19,274 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[1]is found
+2023-10-18 21:12:19,459 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[2]
+2023-10-18 21:12:19,470 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[2]is found
+2023-10-18 21:12:19,607 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[1]
+2023-10-18 21:12:19,619 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[1]is found
+2023-10-18 21:12:21,695 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-18 21:12:21,723 INFO m.WDListener [WDListener.java:26] Element with locator -->By.tagName: buttonis found
+2023-10-18 21:12:21,724 INFO m.NGListener [NGListener.java:21] Success test --> loginPositiveTestProps
+2023-10-18 21:12:21,727 INFO t.TestBase [TestBase.java:27] Finished test ---->loginPositiveTestProps
+2023-10-18 21:12:21,728 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:12:21,738 INFO t.TestBase [TestBase.java:23] Started test ---->loginPositiveTestUserDTO
+2023-10-18 21:12:21,921 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:12:21,936 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:12:21,936 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:12:21,945 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:12:21,971 INFO m.NGListener [NGListener.java:15] Start of the test --> loginPositiveTestUserDTO
+2023-10-18 21:12:21,971 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-18 21:12:21,981 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-18 21:12:22,002 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[1]
+2023-10-18 21:12:22,013 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[1]is found
+2023-10-18 21:12:22,099 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[2]
+2023-10-18 21:12:22,106 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[2]is found
+2023-10-18 21:12:22,212 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[1]
+2023-10-18 21:12:22,219 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[1]is found
+2023-10-18 21:12:25,284 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-18 21:12:25,343 INFO m.WDListener [WDListener.java:26] Element with locator -->By.tagName: buttonis found
+2023-10-18 21:12:25,343 INFO m.NGListener [NGListener.java:21] Success test --> loginPositiveTestUserDTO
+2023-10-18 21:12:25,345 INFO t.TestBase [TestBase.java:27] Finished test ---->loginPositiveTestUserDTO
+2023-10-18 21:12:25,345 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:12:25,346 INFO t.TestBase [TestBase.java:23] Started test ---->loginPositiveTestUserDTO
+2023-10-18 21:12:25,435 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:12:25,442 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:12:25,443 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:12:25,450 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:12:25,483 INFO m.NGListener [NGListener.java:15] Start of the test --> loginPositiveTestUserDTO
+2023-10-18 21:12:25,484 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-18 21:12:25,497 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-18 21:12:25,524 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[1]
+2023-10-18 21:12:25,531 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[1]is found
+2023-10-18 21:12:25,608 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[2]
+2023-10-18 21:12:25,616 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[2]is found
+2023-10-18 21:12:25,750 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[1]
+2023-10-18 21:12:25,757 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[1]is found
+2023-10-18 21:12:28,794 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-18 21:12:28,831 INFO m.WDListener [WDListener.java:26] Element with locator -->By.tagName: buttonis found
+2023-10-18 21:12:28,832 INFO m.NGListener [NGListener.java:21] Success test --> loginPositiveTestUserDTO
+2023-10-18 21:12:28,836 INFO t.TestBase [TestBase.java:27] Finished test ---->loginPositiveTestUserDTO
+2023-10-18 21:12:28,836 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:12:28,838 INFO t.TestBase [TestBase.java:23] Started test ---->loginPositiveTestUserDTO
+2023-10-18 21:12:28,961 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:12:28,974 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:12:28,974 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:12:28,981 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:12:29,038 INFO m.NGListener [NGListener.java:15] Start of the test --> loginPositiveTestUserDTO
+2023-10-18 21:12:29,038 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-18 21:12:29,049 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-18 21:12:29,067 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[1]
+2023-10-18 21:12:29,073 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[1]is found
+2023-10-18 21:12:29,154 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[2]
+2023-10-18 21:12:29,162 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[2]is found
+2023-10-18 21:12:29,317 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[1]
+2023-10-18 21:12:29,329 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[1]is found
+2023-10-18 21:12:32,423 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-18 21:12:32,455 INFO m.WDListener [WDListener.java:26] Element with locator -->By.tagName: buttonis found
+2023-10-18 21:12:32,456 INFO m.NGListener [NGListener.java:21] Success test --> loginPositiveTestUserDTO
+2023-10-18 21:12:32,460 INFO t.TestBase [TestBase.java:27] Finished test ---->loginPositiveTestUserDTO
+2023-10-18 21:12:32,460 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:12:32,466 INFO t.TestBase [TestBase.java:23] Started test ---->loginPositiveTestUserDTO
+2023-10-18 21:12:32,587 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:12:32,596 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:12:32,597 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:12:32,603 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:12:32,630 INFO m.NGListener [NGListener.java:15] Start of the test --> loginPositiveTestUserDTO
+2023-10-18 21:12:32,631 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-18 21:12:32,637 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-18 21:12:32,664 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[1]
+2023-10-18 21:12:32,671 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[1]is found
+2023-10-18 21:12:32,799 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[2]
+2023-10-18 21:12:32,807 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[2]is found
+2023-10-18 21:12:32,902 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[1]
+2023-10-18 21:12:32,911 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[1]is found
+2023-10-18 21:12:35,974 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-18 21:12:35,999 INFO m.WDListener [WDListener.java:26] Element with locator -->By.tagName: buttonis found
+2023-10-18 21:12:36,004 INFO m.NGListener [NGListener.java:21] Success test --> loginPositiveTestUserDTO
+2023-10-18 21:12:36,007 INFO t.TestBase [TestBase.java:27] Finished test ---->loginPositiveTestUserDTO
+2023-10-18 21:12:36,008 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:12:36,012 INFO t.TestBase [TestBase.java:23] Started test ---->registrationNegativeWrongEmailHW
+2023-10-18 21:12:36,120 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:12:36,129 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:12:36,129 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:12:36,136 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:12:36,161 INFO m.NGListener [NGListener.java:15] Start of the test --> registrationNegativeWrongEmailHW
+2023-10-18 21:12:36,161 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-18 21:12:36,169 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-18 21:12:36,222 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[@placeholder='Email']
+2023-10-18 21:12:36,239 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[@placeholder='Email']is found
+2023-10-18 21:12:36,351 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[@placeholder='Password']
+2023-10-18 21:12:36,361 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[@placeholder='Password']is found
+2023-10-18 21:12:36,483 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[2]
+2023-10-18 21:12:36,492 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[2]is found
+2023-10-18 21:12:46,561 INFO m.NGListener [NGListener.java:21] Success test --> registrationNegativeWrongEmailHW
+2023-10-18 21:12:46,566 INFO t.TestBase [TestBase.java:27] Finished test ---->registrationNegativeWrongEmailHW
+2023-10-18 21:12:46,566 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:12:46,567 INFO t.TestBase [TestBase.java:23] Started test ---->registrationPositiveTest
+2023-10-18 21:12:46,755 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:12:49,774 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:12:49,775 INFO m.NGListener [NGListener.java:15] Start of the test --> registrationPositiveTest
+2023-10-18 21:12:49,776 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-18 21:12:49,788 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-18 21:12:49,814 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[@placeholder='Email']
+2023-10-18 21:12:49,860 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[@placeholder='Email']is found
+2023-10-18 21:12:49,977 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[@placeholder='Password']
+2023-10-18 21:12:50,024 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[@placeholder='Password']is found
+2023-10-18 21:12:50,165 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[2]
+2023-10-18 21:12:50,209 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[2]is found
+2023-10-18 21:12:50,259 INFO t.TestBase [RegistrationTests.java:44] Registration Positive Test starts with: polya769@mail.com & Pch1562735$
+2023-10-18 21:13:00,265 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-18 21:13:00,320 INFO m.WDListener [WDListener.java:26] Element with locator -->By.tagName: buttonis found
+2023-10-18 21:13:00,322 INFO m.NGListener [NGListener.java:21] Success test --> registrationPositiveTest
+2023-10-18 21:13:00,329 INFO t.TestBase [TestBase.java:27] Finished test ---->registrationPositiveTest
+2023-10-18 21:13:00,330 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:13:00,344 INFO t.TestBase [TestBase.java:23] Started test ---->registrationPositiveTestCSV
+2023-10-18 21:13:00,483 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:13:00,494 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:13:00,495 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:13:00,505 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:13:00,555 INFO m.NGListener [NGListener.java:15] Start of the test --> registrationPositiveTestCSV
+2023-10-18 21:13:00,557 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-18 21:13:00,566 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-18 21:13:00,587 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[1]
+2023-10-18 21:13:00,593 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[1]is found
+2023-10-18 21:13:00,731 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[2]
+2023-10-18 21:13:00,738 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[2]is found
+2023-10-18 21:13:00,847 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[2]
+2023-10-18 21:13:00,856 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[2]is found
+2023-10-18 21:13:00,893 INFO t.TestBase [RegistrationTests.java:95] Registration Positive Test starts with: sdiufgq09@mail.com & Rr17845$2
+2023-10-18 21:13:01,899 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-18 21:13:02,004 INFO m.WDListener [WDListener.java:32] Something went wrong!!!
+2023-10-18 21:13:02,007 INFO m.WDListener [WDListener.java:33] unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9555a8a0e4ef662bb1354166bbb9b39d
+*** Element info: {Using=tag name, value=button}
+2023-10-18 21:13:02,007 INFO m.WDListener [WDListener.java:34] org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9555a8a0e4ef662bb1354166bbb9b39d
+*** Element info: {Using=tag name, value=button}
+2023-10-18 21:13:02,706 INFO m.WDListener [WDListener.java:39] Here is the path to screenshot with error --> src/test/ScreenShots/screenshot-782.png
+2023-10-18 21:13:02,712 INFO m.NGListener [NGListener.java:27] Failure test --> org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9555a8a0e4ef662bb1354166bbb9b39d
+*** Element info: {Using=tag name, value=button}
+2023-10-18 21:13:02,721 INFO t.TestBase [TestBase.java:27] Finished test ---->registrationPositiveTestCSV
+2023-10-18 21:13:02,721 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:13:02,722 INFO t.TestBase [TestBase.java:23] Started test ---->registrationPositiveTestCSV
+2023-10-18 21:13:02,852 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:13:05,939 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:13:05,953 INFO m.NGListener [NGListener.java:15] Start of the test --> registrationPositiveTestCSV
+2023-10-18 21:13:05,956 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-18 21:13:05,976 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-18 21:13:06,009 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[1]
+2023-10-18 21:13:06,017 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[1]is found
+2023-10-18 21:13:06,113 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[2]
+2023-10-18 21:13:06,123 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[2]is found
+2023-10-18 21:13:06,253 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[2]
+2023-10-18 21:13:06,262 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[2]is found
+2023-10-18 21:13:06,286 INFO t.TestBase [RegistrationTests.java:95] Registration Positive Test starts with: psdfbce32@mail.com & Rr17845$3
+2023-10-18 21:13:07,292 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-18 21:13:07,308 INFO m.WDListener [WDListener.java:32] Something went wrong!!!
+2023-10-18 21:13:07,309 INFO m.WDListener [WDListener.java:33] unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9555a8a0e4ef662bb1354166bbb9b39d
+*** Element info: {Using=tag name, value=button}
+2023-10-18 21:13:07,310 INFO m.WDListener [WDListener.java:34] org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9555a8a0e4ef662bb1354166bbb9b39d
+*** Element info: {Using=tag name, value=button}
+2023-10-18 21:13:07,870 INFO m.WDListener [WDListener.java:39] Here is the path to screenshot with error --> src/test/ScreenShots/screenshot-787.png
+2023-10-18 21:13:07,873 INFO m.NGListener [NGListener.java:27] Failure test --> org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9555a8a0e4ef662bb1354166bbb9b39d
+*** Element info: {Using=tag name, value=button}
+2023-10-18 21:13:07,882 INFO t.TestBase [TestBase.java:27] Finished test ---->registrationPositiveTestCSV
+2023-10-18 21:13:07,883 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:13:07,896 INFO t.TestBase [TestBase.java:23] Started test ---->registrationPositiveTestCSV
+2023-10-18 21:13:08,003 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:13:11,084 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:13:11,092 INFO m.NGListener [NGListener.java:15] Start of the test --> registrationPositiveTestCSV
+2023-10-18 21:13:11,094 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-18 21:13:11,111 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-18 21:13:11,158 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[1]
+2023-10-18 21:13:11,172 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[1]is found
+2023-10-18 21:13:11,325 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[2]
+2023-10-18 21:13:11,333 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[2]is found
+2023-10-18 21:13:11,450 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[2]
+2023-10-18 21:13:11,458 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[2]is found
+2023-10-18 21:13:11,482 INFO t.TestBase [RegistrationTests.java:95] Registration Positive Test starts with: dhfgsdl56@mail.com & Rr17845$4
+2023-10-18 21:13:12,488 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-18 21:13:12,503 INFO m.WDListener [WDListener.java:32] Something went wrong!!!
+2023-10-18 21:13:12,504 INFO m.WDListener [WDListener.java:33] unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9555a8a0e4ef662bb1354166bbb9b39d
+*** Element info: {Using=tag name, value=button}
+2023-10-18 21:13:12,505 INFO m.WDListener [WDListener.java:34] org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9555a8a0e4ef662bb1354166bbb9b39d
+*** Element info: {Using=tag name, value=button}
+2023-10-18 21:13:13,087 INFO m.WDListener [WDListener.java:39] Here is the path to screenshot with error --> src/test/ScreenShots/screenshot-792.png
+2023-10-18 21:13:13,089 INFO m.NGListener [NGListener.java:27] Failure test --> org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9555a8a0e4ef662bb1354166bbb9b39d
+*** Element info: {Using=tag name, value=button}
+2023-10-18 21:13:13,092 INFO t.TestBase [TestBase.java:27] Finished test ---->registrationPositiveTestCSV
+2023-10-18 21:13:13,093 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:13:13,095 INFO t.TestBase [TestBase.java:23] Started test ---->registrationPositiveTestCSV
+2023-10-18 21:13:13,199 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:13:16,232 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:13:16,240 INFO m.NGListener [NGListener.java:15] Start of the test --> registrationPositiveTestCSV
+2023-10-18 21:13:16,257 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-18 21:13:16,273 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-18 21:13:16,300 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[1]
+2023-10-18 21:13:16,307 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[1]is found
+2023-10-18 21:13:16,432 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[2]
+2023-10-18 21:13:16,443 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[2]is found
+2023-10-18 21:13:16,564 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[2]
+2023-10-18 21:13:16,573 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[2]is found
+2023-10-18 21:13:16,593 INFO t.TestBase [RegistrationTests.java:95] Registration Positive Test starts with: kasto34@mail.com & Rr17845$5
+2023-10-18 21:13:17,598 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-18 21:13:17,617 INFO m.WDListener [WDListener.java:32] Something went wrong!!!
+2023-10-18 21:13:17,618 INFO m.WDListener [WDListener.java:33] unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9555a8a0e4ef662bb1354166bbb9b39d
+*** Element info: {Using=tag name, value=button}
+2023-10-18 21:13:17,618 INFO m.WDListener [WDListener.java:34] org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9555a8a0e4ef662bb1354166bbb9b39d
+*** Element info: {Using=tag name, value=button}
+2023-10-18 21:13:18,210 INFO m.WDListener [WDListener.java:39] Here is the path to screenshot with error --> src/test/ScreenShots/screenshot-797.png
+2023-10-18 21:13:18,212 INFO m.NGListener [NGListener.java:27] Failure test --> org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9555a8a0e4ef662bb1354166bbb9b39d
+*** Element info: {Using=tag name, value=button}
+2023-10-18 21:13:18,217 INFO t.TestBase [TestBase.java:27] Finished test ---->registrationPositiveTestCSV
+2023-10-18 21:13:18,217 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:13:18,224 INFO t.TestBase [TestBase.java:23] Started test ---->registrationPositiveTestCSV
+2023-10-18 21:13:18,350 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:13:21,374 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:13:21,387 INFO m.NGListener [NGListener.java:15] Start of the test --> registrationPositiveTestCSV
+2023-10-18 21:13:21,390 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-18 21:13:21,417 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-18 21:13:21,673 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[1]
+2023-10-18 21:13:21,678 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[1]is found
+2023-10-18 21:13:21,846 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[2]
+2023-10-18 21:13:21,855 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[2]is found
+2023-10-18 21:13:22,007 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[2]
+2023-10-18 21:13:22,025 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[2]is found
+2023-10-18 21:13:22,108 INFO t.TestBase [RegistrationTests.java:95] Registration Positive Test starts with: posta951@mail.com & Rr17845$6
+2023-10-18 21:13:23,116 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-18 21:13:23,140 INFO m.WDListener [WDListener.java:32] Something went wrong!!!
+2023-10-18 21:13:23,141 INFO m.WDListener [WDListener.java:33] unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9555a8a0e4ef662bb1354166bbb9b39d
+*** Element info: {Using=tag name, value=button}
+2023-10-18 21:13:23,142 INFO m.WDListener [WDListener.java:34] org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9555a8a0e4ef662bb1354166bbb9b39d
+*** Element info: {Using=tag name, value=button}
+2023-10-18 21:13:23,706 INFO m.WDListener [WDListener.java:39] Here is the path to screenshot with error --> src/test/ScreenShots/screenshot-803.png
+2023-10-18 21:13:23,709 INFO m.NGListener [NGListener.java:27] Failure test --> org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9555a8a0e4ef662bb1354166bbb9b39d
+*** Element info: {Using=tag name, value=button}
+2023-10-18 21:13:23,718 INFO t.TestBase [TestBase.java:27] Finished test ---->registrationPositiveTestCSV
+2023-10-18 21:13:23,718 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:13:23,719 INFO t.TestBase [TestBase.java:23] Started test ---->registrationPositiveTestCSV
+2023-10-18 21:13:23,939 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 21:13:26,957 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 21:13:26,961 INFO m.NGListener [NGListener.java:15] Start of the test --> registrationPositiveTestCSV
+2023-10-18 21:13:26,963 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-18 21:13:26,977 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-18 21:13:27,051 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[1]
+2023-10-18 21:13:27,058 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[1]is found
+2023-10-18 21:13:27,213 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[2]
+2023-10-18 21:13:27,221 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[2]is found
+2023-10-18 21:13:27,332 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[2]
+2023-10-18 21:13:27,339 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[2]is found
+2023-10-18 21:13:27,463 INFO t.TestBase [RegistrationTests.java:95] Registration Positive Test starts with: linushika81@mail.com & Rr17845$7
+2023-10-18 21:13:28,468 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-18 21:13:28,475 INFO m.WDListener [WDListener.java:32] Something went wrong!!!
+2023-10-18 21:13:28,476 INFO m.WDListener [WDListener.java:33] unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9555a8a0e4ef662bb1354166bbb9b39d
+*** Element info: {Using=tag name, value=button}
+2023-10-18 21:13:28,476 INFO m.WDListener [WDListener.java:34] org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9555a8a0e4ef662bb1354166bbb9b39d
+*** Element info: {Using=tag name, value=button}
+2023-10-18 21:13:29,022 INFO m.WDListener [WDListener.java:39] Here is the path to screenshot with error --> src/test/ScreenShots/screenshot-808.png
+2023-10-18 21:13:29,023 INFO m.NGListener [NGListener.java:27] Failure test --> org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User already exist}
+  (Session info: chrome=118.0.5993.70): User already exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Elena', ip: 'fdc4:b336:629f:4bd4:894:bc40:15f8:74f6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.5.2', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.70, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/xj/ypscvp816dg...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61248}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9555a8a0e4ef662bb1354166bbb9b39d
+*** Element info: {Using=tag name, value=button}
+2023-10-18 21:13:29,024 INFO t.TestBase [TestBase.java:27] Finished test ---->registrationPositiveTestCSV
+2023-10-18 21:13:29,025 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 21:13:29,053 INFO m.ApplicationManager [ApplicationManager.java:61] Test completed

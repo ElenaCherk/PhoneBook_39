@@ -1,0 +1,1 @@
+2023-09-26 16:37:01,704 INFO t.TestBase [RegistrationTests.java:37] Registration Positive Test starts with: polya2220@mail.com & Pch1562735$

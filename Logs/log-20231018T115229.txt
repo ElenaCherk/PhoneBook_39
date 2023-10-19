@@ -1,0 +1,3 @@
+2023-10-18 11:52:37,553 INFO m.ApplicationManager [ApplicationManager.java:49] Test started on Chrome
+2023-10-18 11:52:38,303 INFO m.ApplicationManager [ApplicationManager.java:57] Navigated to the link --->https://telranedu.web.app/home
+2023-10-18 11:52:38,366 INFO m.ApplicationManager [ApplicationManager.java:66] Test completed

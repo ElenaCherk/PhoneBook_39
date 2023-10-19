@@ -1,0 +1,20 @@
+2023-10-18 15:03:27,734 INFO m.ApplicationManager [ApplicationManager.java:46] Test started on Chrome
+2023-10-18 15:03:28,553 INFO m.ApplicationManager [ApplicationManager.java:54] Navigated to the link --->https://telranedu.web.app/home
+2023-10-18 15:03:28,598 INFO t.TestBase [TestBase.java:23] Started test ---->loginPositiveTestProps
+2023-10-18 15:03:28,781 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-18 15:03:31,803 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-18 15:03:31,807 INFO m.NGListener [NGListener.java:15] Start of the test --> loginPositiveTestProps
+2023-10-18 15:03:31,809 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-18 15:03:31,836 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //*[.='LOGIN']is found
+2023-10-18 15:03:32,202 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[1]
+2023-10-18 15:03:32,325 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[1]is found
+2023-10-18 15:03:33,088 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //input[2]
+2023-10-18 15:03:33,101 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //input[2]is found
+2023-10-18 15:03:33,422 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[1]
+2023-10-18 15:03:33,433 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[1]is found
+2023-10-18 15:03:35,636 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.tagName: button
+2023-10-18 15:03:35,675 INFO m.WDListener [WDListener.java:26] Element with locator -->By.tagName: buttonis found
+2023-10-18 15:03:35,682 INFO m.NGListener [NGListener.java:21] Success test --> loginPositiveTestProps
+2023-10-18 15:03:35,686 INFO t.TestBase [TestBase.java:27] Finished test ---->loginPositiveTestProps
+2023-10-18 15:03:35,686 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-18 15:03:35,692 INFO m.ApplicationManager [ApplicationManager.java:63] Test completed
