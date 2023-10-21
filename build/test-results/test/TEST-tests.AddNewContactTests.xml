@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.AddNewContactTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-21T11:54:11" hostname="MBP-Elena" time="1.859">
+  <properties/>
+  <testcase name="addNewContactWrongEmailNegative" classname="tests.AddNewContactTests" time="1.859"/>
+  <system-out><![CDATA[Email not valid: должно иметь формат адреса электронной почты
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

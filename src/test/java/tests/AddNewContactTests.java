@@ -34,6 +34,23 @@ public class AddNewContactTests extends TestBase{
         app.getHelperContact().submitContactForm();
         Assert.assertTrue(app.getHelperContact().isContactCreated(contact));
     }
+    @Test(groups = {"negative"})
+    public void addNewContactWrongEmailNegative(){
+        int i = (int)(System.currentTimeMillis()/1000)%3600;
+        Contact contact = Contact.builder()
+                .name("Lena")
+                .lastName("Black")
+                .phone("12357689" + i)
+                .email("jb_" + i + "mail.com")
+                .address("Haifa")
+                .description("friend")
+                .build();
+        app.getHelperContact().openContactForm();
+        app.getHelperContact().fillContactForm(contact);
+        app.getHelperContact().submitContactForm();
+        Assert.assertTrue(app.getHelperUser().isAlertPresent());
+    }
+
     @Test(groups = {"positive", "smoke"}, dataProvider = "AddContactDTO", dataProviderClass = ProviderData.class)
     public void addNewContactPositiveDTO(Contact contact){
         app.getHelperContact().openContactForm();

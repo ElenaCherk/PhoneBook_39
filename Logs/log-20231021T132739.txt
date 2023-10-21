@@ -1,0 +1,293 @@
+2023-10-21 13:27:41,437 INFO m.ApplicationManager [ApplicationManager.java:44] Test started on Chrome
+2023-10-21 13:29:22,461 INFO m.ApplicationManager [ApplicationManager.java:52] Navigated to the link --->https://telranedu.web.app/home
+2023-10-21 13:29:22,544 INFO t.TestBase [TestBase.java:23] Started test ---->loginNegativeTestWrongEmail
+2023-10-21 13:29:22,602 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-21 13:29:25,644 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-21 13:29:25,645 INFO m.NGListener [NGListener.java:15] Start of the test --> loginNegativeTestWrongEmail
+2023-10-21 13:29:25,646 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-21 13:29:28,717 INFO m.WDListener [WDListener.java:32] Something went wrong!!!
+2023-10-21 13:29:28,718 INFO m.WDListener [WDListener.java:33] no such element: Unable to locate element: {"method":"xpath","selector":"//*[.='LOGIN']"}
+  (Session info: chrome=118.0.5993.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Elena', ip: 'fdc4:b336:629f:4bd4:6d:456b:d747:7335%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/vb/ksgv90hd0qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db4922f8edc6ba8772a88fcc645fbb4
+*** Element info: {Using=xpath, value=//*[.='LOGIN']}
+2023-10-21 13:29:28,718 INFO m.WDListener [WDListener.java:34] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[.='LOGIN']"}
+  (Session info: chrome=118.0.5993.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Elena', ip: 'fdc4:b336:629f:4bd4:6d:456b:d747:7335%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/vb/ksgv90hd0qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db4922f8edc6ba8772a88fcc645fbb4
+*** Element info: {Using=xpath, value=//*[.='LOGIN']}
+2023-10-21 13:29:28,874 INFO m.WDListener [WDListener.java:39] Here is the path to screenshot with error --> src/test/ScreenShots/screenshot-1768.png
+2023-10-21 13:29:28,875 INFO m.NGListener [NGListener.java:27] Failure test --> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[.='LOGIN']"}
+  (Session info: chrome=118.0.5993.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Elena', ip: 'fdc4:b336:629f:4bd4:6d:456b:d747:7335%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/vb/ksgv90hd0qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db4922f8edc6ba8772a88fcc645fbb4
+*** Element info: {Using=xpath, value=//*[.='LOGIN']}
+2023-10-21 13:29:28,877 INFO t.TestBase [TestBase.java:27] Finished test ---->loginNegativeTestWrongEmail
+2023-10-21 13:29:28,877 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-21 13:29:28,878 INFO t.TestBase [TestBase.java:23] Started test ---->loginNegativeTestWrongPasswordHW
+2023-10-21 13:29:38,844 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-21 13:29:40,266 INFO m.WDListener [WDListener.java:26] Element with locator -->By.xpath: //button[.='Sign Out']is found
+2023-10-21 13:29:40,268 INFO m.NGListener [NGListener.java:15] Start of the test --> loginNegativeTestWrongPasswordHW
+2023-10-21 13:29:40,269 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //*[.='LOGIN']
+2023-10-21 13:29:40,273 INFO m.WDListener [WDListener.java:32] Something went wrong!!!
+2023-10-21 13:29:40,274 INFO m.WDListener [WDListener.java:33] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Elena', ip: 'fdc4:b336:629f:4bd4:6d:456b:d747:7335%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/vb/ksgv90hd0qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db4922f8edc6ba8772a88fcc645fbb4
+*** Element info: {Using=xpath, value=//*[.='LOGIN']}
+2023-10-21 13:29:40,274 INFO m.WDListener [WDListener.java:34] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Elena', ip: 'fdc4:b336:629f:4bd4:6d:456b:d747:7335%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/vb/ksgv90hd0qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db4922f8edc6ba8772a88fcc645fbb4
+*** Element info: {Using=xpath, value=//*[.='LOGIN']}
+2023-10-21 13:29:40,276 INFO m.NGListener [NGListener.java:27] Failure test --> org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Elena', ip: 'fdc4:b336:629f:4bd4:6d:456b:d747:7335%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/vb/ksgv90hd0qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db4922f8edc6ba8772a88fcc645fbb4
+2023-10-21 13:29:40,278 INFO t.TestBase [TestBase.java:27] Finished test ---->loginNegativeTestWrongPasswordHW
+2023-10-21 13:29:40,278 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-21 13:29:40,279 INFO t.TestBase [TestBase.java:23] Started test ---->loginPositiveTest
+2023-10-21 13:29:40,291 INFO m.NGListener [NGListener.java:15] Start of the test --> loginPositiveTest
+2023-10-21 13:29:40,295 INFO t.TestBase [TestBase.java:27] Finished test ---->loginPositiveTest
+2023-10-21 13:29:40,300 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-21 13:29:40,309 INFO t.TestBase [TestBase.java:23] Started test ---->loginPositiveTestModel
+2023-10-21 13:29:40,315 INFO m.NGListener [NGListener.java:15] Start of the test --> loginPositiveTestModel
+2023-10-21 13:29:40,316 INFO t.TestBase [TestBase.java:27] Finished test ---->loginPositiveTestModel
+2023-10-21 13:29:40,324 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-21 13:29:40,329 INFO t.TestBase [TestBase.java:23] Started test ---->loginPositiveTestProps
+2023-10-21 13:29:40,336 INFO m.NGListener [NGListener.java:15] Start of the test --> loginPositiveTestProps
+2023-10-21 13:29:40,337 INFO t.TestBase [TestBase.java:27] Finished test ---->loginPositiveTestProps
+2023-10-21 13:29:40,337 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-21 13:29:40,342 INFO t.TestBase [TestBase.java:23] Started test ---->loginPositiveTestUserDTO
+2023-10-21 13:29:40,345 INFO m.NGListener [NGListener.java:15] Start of the test --> loginPositiveTestUserDTO
+2023-10-21 13:29:40,346 INFO t.TestBase [TestBase.java:27] Finished test ---->loginPositiveTestUserDTO
+2023-10-21 13:29:40,346 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-21 13:29:40,346 INFO t.TestBase [TestBase.java:23] Started test ---->loginPositiveTestUserDTO
+2023-10-21 13:29:40,349 INFO m.NGListener [NGListener.java:15] Start of the test --> loginPositiveTestUserDTO
+2023-10-21 13:29:40,349 INFO t.TestBase [TestBase.java:27] Finished test ---->loginPositiveTestUserDTO
+2023-10-21 13:29:40,349 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-21 13:29:40,350 INFO t.TestBase [TestBase.java:23] Started test ---->loginPositiveTestUserDTO
+2023-10-21 13:29:40,353 INFO m.NGListener [NGListener.java:15] Start of the test --> loginPositiveTestUserDTO
+2023-10-21 13:29:40,353 INFO t.TestBase [TestBase.java:27] Finished test ---->loginPositiveTestUserDTO
+2023-10-21 13:29:40,353 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-21 13:29:40,353 INFO t.TestBase [TestBase.java:23] Started test ---->loginPositiveTestUserDTO
+2023-10-21 13:29:40,356 INFO m.NGListener [NGListener.java:15] Start of the test --> loginPositiveTestUserDTO
+2023-10-21 13:29:40,357 INFO t.TestBase [TestBase.java:27] Finished test ---->loginPositiveTestUserDTO
+2023-10-21 13:29:40,357 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-21 13:29:40,359 INFO t.TestBase [TestBase.java:23] Started test ---->addNewContactPositive
+2023-10-21 13:29:40,359 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-21 13:29:40,362 INFO m.WDListener [WDListener.java:32] Something went wrong!!!
+2023-10-21 13:29:40,362 INFO m.WDListener [WDListener.java:33] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Elena', ip: 'fdc4:b336:629f:4bd4:6d:456b:d747:7335%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/vb/ksgv90hd0qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db4922f8edc6ba8772a88fcc645fbb4
+*** Element info: {Using=xpath, value=//button[.='Sign Out']}
+2023-10-21 13:29:40,363 INFO m.WDListener [WDListener.java:34] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Elena', ip: 'fdc4:b336:629f:4bd4:6d:456b:d747:7335%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/vb/ksgv90hd0qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db4922f8edc6ba8772a88fcc645fbb4
+*** Element info: {Using=xpath, value=//button[.='Sign Out']}
+2023-10-21 13:29:40,364 INFO m.NGListener [NGListener.java:15] Start of the test --> addNewContactPositive
+2023-10-21 13:29:40,364 INFO t.TestBase [TestBase.java:27] Finished test ---->addNewContactPositive
+2023-10-21 13:29:40,364 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-21 13:29:40,365 INFO t.TestBase [TestBase.java:23] Started test ---->addNewContactPositive
+2023-10-21 13:29:40,365 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-21 13:29:40,368 INFO m.WDListener [WDListener.java:32] Something went wrong!!!
+2023-10-21 13:29:40,368 INFO m.WDListener [WDListener.java:33] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Elena', ip: 'fdc4:b336:629f:4bd4:6d:456b:d747:7335%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/vb/ksgv90hd0qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db4922f8edc6ba8772a88fcc645fbb4
+*** Element info: {Using=xpath, value=//button[.='Sign Out']}
+2023-10-21 13:29:40,368 INFO m.WDListener [WDListener.java:34] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Elena', ip: 'fdc4:b336:629f:4bd4:6d:456b:d747:7335%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/vb/ksgv90hd0qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db4922f8edc6ba8772a88fcc645fbb4
+*** Element info: {Using=xpath, value=//button[.='Sign Out']}
+2023-10-21 13:29:40,369 INFO m.NGListener [NGListener.java:15] Start of the test --> addNewContactPositive
+2023-10-21 13:29:40,370 INFO t.TestBase [TestBase.java:27] Finished test ---->addNewContactPositive
+2023-10-21 13:29:40,370 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-21 13:29:40,370 INFO t.TestBase [TestBase.java:23] Started test ---->addNewContactPositive
+2023-10-21 13:29:40,370 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-21 13:29:40,373 INFO m.WDListener [WDListener.java:32] Something went wrong!!!
+2023-10-21 13:29:40,373 INFO m.WDListener [WDListener.java:33] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Elena', ip: 'fdc4:b336:629f:4bd4:6d:456b:d747:7335%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/vb/ksgv90hd0qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db4922f8edc6ba8772a88fcc645fbb4
+*** Element info: {Using=xpath, value=//button[.='Sign Out']}
+2023-10-21 13:29:40,373 INFO m.WDListener [WDListener.java:34] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Elena', ip: 'fdc4:b336:629f:4bd4:6d:456b:d747:7335%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/vb/ksgv90hd0qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db4922f8edc6ba8772a88fcc645fbb4
+*** Element info: {Using=xpath, value=//button[.='Sign Out']}
+2023-10-21 13:29:40,374 INFO m.NGListener [NGListener.java:15] Start of the test --> addNewContactPositive
+2023-10-21 13:29:40,374 INFO t.TestBase [TestBase.java:27] Finished test ---->addNewContactPositive
+2023-10-21 13:29:40,374 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-21 13:29:40,375 INFO t.TestBase [TestBase.java:23] Started test ---->addNewContactPositive
+2023-10-21 13:29:40,375 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-21 13:29:40,377 INFO m.WDListener [WDListener.java:32] Something went wrong!!!
+2023-10-21 13:29:40,378 INFO m.WDListener [WDListener.java:33] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Elena', ip: 'fdc4:b336:629f:4bd4:6d:456b:d747:7335%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/vb/ksgv90hd0qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db4922f8edc6ba8772a88fcc645fbb4
+*** Element info: {Using=xpath, value=//button[.='Sign Out']}
+2023-10-21 13:29:40,378 INFO m.WDListener [WDListener.java:34] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Elena', ip: 'fdc4:b336:629f:4bd4:6d:456b:d747:7335%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/vb/ksgv90hd0qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db4922f8edc6ba8772a88fcc645fbb4
+*** Element info: {Using=xpath, value=//button[.='Sign Out']}
+2023-10-21 13:29:40,379 INFO m.NGListener [NGListener.java:15] Start of the test --> addNewContactPositive
+2023-10-21 13:29:40,380 INFO t.TestBase [TestBase.java:27] Finished test ---->addNewContactPositive
+2023-10-21 13:29:40,380 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-21 13:29:40,380 INFO t.TestBase [TestBase.java:23] Started test ---->addNewContactPositive
+2023-10-21 13:29:40,380 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-21 13:29:40,383 INFO m.WDListener [WDListener.java:32] Something went wrong!!!
+2023-10-21 13:29:40,383 INFO m.WDListener [WDListener.java:33] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Elena', ip: 'fdc4:b336:629f:4bd4:6d:456b:d747:7335%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/vb/ksgv90hd0qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db4922f8edc6ba8772a88fcc645fbb4
+*** Element info: {Using=xpath, value=//button[.='Sign Out']}
+2023-10-21 13:29:40,383 INFO m.WDListener [WDListener.java:34] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Elena', ip: 'fdc4:b336:629f:4bd4:6d:456b:d747:7335%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/vb/ksgv90hd0qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db4922f8edc6ba8772a88fcc645fbb4
+*** Element info: {Using=xpath, value=//button[.='Sign Out']}
+2023-10-21 13:29:40,385 INFO m.NGListener [NGListener.java:15] Start of the test --> addNewContactPositive
+2023-10-21 13:29:40,396 INFO t.TestBase [TestBase.java:27] Finished test ---->addNewContactPositive
+2023-10-21 13:29:40,396 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-21 13:29:40,399 INFO t.TestBase [TestBase.java:23] Started test ---->addNewContactPositiveDTO
+2023-10-21 13:29:40,399 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-21 13:29:40,402 INFO m.WDListener [WDListener.java:32] Something went wrong!!!
+2023-10-21 13:29:40,402 INFO m.WDListener [WDListener.java:33] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Elena', ip: 'fdc4:b336:629f:4bd4:6d:456b:d747:7335%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/vb/ksgv90hd0qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db4922f8edc6ba8772a88fcc645fbb4
+*** Element info: {Using=xpath, value=//button[.='Sign Out']}
+2023-10-21 13:29:40,402 INFO m.WDListener [WDListener.java:34] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Elena', ip: 'fdc4:b336:629f:4bd4:6d:456b:d747:7335%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/vb/ksgv90hd0qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db4922f8edc6ba8772a88fcc645fbb4
+*** Element info: {Using=xpath, value=//button[.='Sign Out']}
+2023-10-21 13:29:40,403 INFO m.NGListener [NGListener.java:15] Start of the test --> addNewContactPositiveDTO
+2023-10-21 13:29:40,403 INFO t.TestBase [TestBase.java:27] Finished test ---->addNewContactPositiveDTO
+2023-10-21 13:29:40,403 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-21 13:29:40,404 INFO t.TestBase [TestBase.java:23] Started test ---->addNewContactPositiveDTO
+2023-10-21 13:29:40,404 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-21 13:29:40,406 INFO m.WDListener [WDListener.java:32] Something went wrong!!!
+2023-10-21 13:29:40,406 INFO m.WDListener [WDListener.java:33] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Elena', ip: 'fdc4:b336:629f:4bd4:6d:456b:d747:7335%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/vb/ksgv90hd0qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db4922f8edc6ba8772a88fcc645fbb4
+*** Element info: {Using=xpath, value=//button[.='Sign Out']}
+2023-10-21 13:29:40,406 INFO m.WDListener [WDListener.java:34] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Elena', ip: 'fdc4:b336:629f:4bd4:6d:456b:d747:7335%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/vb/ksgv90hd0qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db4922f8edc6ba8772a88fcc645fbb4
+*** Element info: {Using=xpath, value=//button[.='Sign Out']}
+2023-10-21 13:29:40,408 INFO m.NGListener [NGListener.java:15] Start of the test --> addNewContactPositiveDTO
+2023-10-21 13:29:40,408 INFO t.TestBase [TestBase.java:27] Finished test ---->addNewContactPositiveDTO
+2023-10-21 13:29:40,408 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-21 13:29:40,408 INFO t.TestBase [TestBase.java:23] Started test ---->addNewContactPositiveDTO
+2023-10-21 13:29:40,409 INFO m.WDListener [WDListener.java:20] Start searching element by locator -->By.xpath: //button[.='Sign Out']
+2023-10-21 13:29:40,411 INFO m.WDListener [WDListener.java:32] Something went wrong!!!
+2023-10-21 13:29:40,411 INFO m.WDListener [WDListener.java:33] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Elena', ip: 'fdc4:b336:629f:4bd4:6d:456b:d747:7335%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/vb/ksgv90hd0qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db4922f8edc6ba8772a88fcc645fbb4
+*** Element info: {Using=xpath, value=//button[.='Sign Out']}
+2023-10-21 13:29:40,412 INFO m.WDListener [WDListener.java:34] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=118.0.5993.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MBP-Elena', ip: 'fdc4:b336:629f:4bd4:6d:456b:d747:7335%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.0', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /var/folders/vb/ksgv90hd0qn...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db4922f8edc6ba8772a88fcc645fbb4
+*** Element info: {Using=xpath, value=//button[.='Sign Out']}
+2023-10-21 13:29:40,413 INFO m.NGListener [NGListener.java:15] Start of the test --> addNewContactPositiveDTO
+2023-10-21 13:29:40,413 INFO t.TestBase [TestBase.java:27] Finished test ---->addNewContactPositiveDTO
+2023-10-21 13:29:40,413 INFO t.TestBase [TestBase.java:28] =====================================================================
+2023-10-21 13:29:40,414 INFO m.ApplicationManager [ApplicationManager.java:61] Test completed

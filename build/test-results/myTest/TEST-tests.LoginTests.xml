@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LoginTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2023-10-21T11:09:43" hostname="MBP-Elena" time="56.189">
+  <properties/>
+  <testcase name="loginNegativeTestWrongEmail" classname="tests.LoginTests" time="10.351"/>
+  <testcase name="loginNegativeTestWrongPasswordHW" classname="tests.LoginTests" time="10.223"/>
+  <testcase name="loginPositiveTest" classname="tests.LoginTests" time="10.245"/>
+  <testcase name="loginPositiveTestModel" classname="tests.LoginTests" time="3.199"/>
+  <testcase name="loginPositiveTestProps" classname="tests.LoginTests" time="2.201"/>
+  <testcase name="loginPositiveTestUserDTO[0](User(email=rita@mail.com, password=Rr12345$))" classname="tests.LoginTests" time="3.201"/>
+  <testcase name="loginPositiveTestUserDTO[1](User(email=linkas@mail.com, password=Opd136476$))" classname="tests.LoginTests" time="3.206"/>
+  <testcase name="loginPositiveTestUserDTO[2](User(email=april@mail.com, password=Oj76543$))" classname="tests.LoginTests" time="3.192"/>
+  <testcase name="loginPositiveTestUserDTO[3](User(email=dan@mail.com, password=Ft12376$))" classname="tests.LoginTests" time="3.197"/>
+  <system-out><![CDATA[Wrong email or password
+Wrong email or password
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
